@@ -13,6 +13,11 @@ html {
   text-transform: capitalize;
 }
 
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   border-bottom: 1px solid seashell;
@@ -33,7 +38,7 @@ img {
 }
 
 nav {
-  width: 33%;
+  width: 100%;
 }
 
 ul {
@@ -57,13 +62,17 @@ a {
   justify-content: center;
 }
 #background-mission {
-  width: 1200px;
   height: 700px;
   background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
+  position: relative;
+  top: 70px;
 }
 
 #mission-banner {
@@ -78,4 +87,97 @@ a {
 #mission-banner h2,
 #mission-banner h4 {
   margin: 10px 0;
+}
+
+#tea-section {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#tea-heading {
+  padding-top: 125px;
+}
+
+#tea-heading p {
+  margin-top: 15px;
+}
+
+#tea-img-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 12px;
+}
+
+img.img-display {
+  height: 200px;
+  width: 300px;
+  display: block;
+}
+
+#myrtle-tea {
+  position: relative;
+  left: 55px;
+  margin-top: 10px;
+}
+
+#bedford-tea {
+  position: relative;
+  right: 55px;
+  margin-top: 10px;
+}
+
+.spacing-p p {
+  margin-top: 10px;
+}
+
+#locations-section {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 80px;
+}
+
+#locations-container {
+  padding-top: 50px;
+}
+
+#locations-items {
+  display: flex;
+  justify-content: center;
+}
+.box-style {
+  width: 300px;
+  height: auto;
+  background-color: black;
+  margin-top: 15px;
+  margin-right: 40px;
+  opacity: 1;
+}
+
+.box-style h3 {
+  margin-top: 20px;
+}
+
+.box-style p {
+  margin: 30px 0;
+}
+
+footer {
+  height: 200px;
+  margin-top: 10px;
+}
+
+footer h5 {
+  text-transform: none;
+  margin-top: 30px;
+}
+
+#copyright {
+  position: absolute;
+  left: 20px;
+  padding-bottom: 10px;
 }
